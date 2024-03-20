@@ -1,0 +1,28 @@
+.quote-wrapper {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 8rem 0;
+}
+
+.quote-align {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 60%;
+}
+
+.quote-name {
+    max-width: 60%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding: 5px;
+}
