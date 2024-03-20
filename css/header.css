@@ -1,0 +1,94 @@
+body, .header {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    align-items: center;
+    background-color: #1F2937;
+}
+
+/* align-items: center from parent removes default value of stretch which
+lets children fill the container, so an explicit width must be set to 100%
+to stretch to fill again */
+.nav-bar, .hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80%;
+}
+
+.nav-bar {
+    align-items: center;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    flex-shrink: 0;
+    padding: 1rem;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-wrapper {
+    padding: 3rem 0 5rem;
+    align-items: flex-start;
+}
+
+.hero-info {
+    max-width: 40%;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    height: 100%;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hero-secondary, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: 0;
+    padding: .5em 3em;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.hero-photo {
+    object-fit: cover;
+    padding-left: 1.5rem;
+    width: 50%;
+    max-height: 250px;
+}
