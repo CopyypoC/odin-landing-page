@@ -83,11 +83,14 @@ button {
     color: #f9faf8;
     border-radius: 5px;
     border: 0;
-    padding: .5em 3em;
     font-size: 18px;
     font-weight: bold;
-    margin-top: 1rem;
     cursor: pointer;
+    padding: .5rem 3rem;
+}
+
+.hero-info button {
+    margin-top: 1rem;
 }
 
 .hero-photo {

@@ -1,0 +1,43 @@
+.cta-center {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    align-items: center;
+    border-radius: 6px;
+    margin: 8rem 0;
+    max-width: 80%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.cta-align {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 3rem 10rem;
+    flex: 1.5 1 0;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-subtext {
+    font-size: 18px;
+}
+
+.button-align {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.cta-button {
+    margin: 2rem;
+    border: 2px solid white;
+}
